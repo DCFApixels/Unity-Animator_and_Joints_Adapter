@@ -1,7 +1,7 @@
 # Unity-Animator_and_Joints_Adapter
 A script for combining the work of animations and joints.
 
-Небольшой скрипт решающий проблему сочетания анимаций и Joint-ов. Проект содержит демо-сцену для демонстрации и основной скрипт CopyTransform.cs (В свой проект достаточно скопировать только этот скрипт)
+Небольшой скрипт решающий проблему сочетания анимаций и Joint-ов. Проект содержит демо-сцену и основной скрипт CopyTransform.cs (В свой проект достаточно скопировать только этот скрипт)
 
 ![image](https://user-images.githubusercontent.com/99481254/183257657-909410db-04cb-4bab-ae1e-3213ea4575d6.png)
 
