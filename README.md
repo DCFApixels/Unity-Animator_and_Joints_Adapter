@@ -3,6 +3,8 @@ A script for combining the work of animations and joints.
 
 Небольшой скрипт решающий проблему сочетания анимаций и Joint-ов. Проект содержит демо-сцену для демонстрации и основной скрипт CopyTransform.cs (В свой проект достаточно скопировать только этот скрипт)
 
+![image](https://user-images.githubusercontent.com/99481254/183257657-909410db-04cb-4bab-ae1e-3213ea4575d6.png)
+
 Принцип работы заключается в том, чтобы для анимаций создать копию скелета с Animator, а с основного скелета для каждой кости повторять состояние Transform с аналогичных костей из копии, далее в основном скелете настроить Configurable Joint-ы. Скрипт CopyTransform.cs отвечает за такое повторение. Если вместе с CopyTransform на обекте висит Configurable Joint то он будет идентично повторять localPosition и localScale, а поворот будет происходит через joint, если нет Configurable Joint, то будет повторять и localRotation.
 
 Для удобства скрипт содержит в себе генератор. Для применения генератора выберете нужный объект в иерархии(можно несколько), после чего кликните по "GameObject/Generate Animator-Joins" или через ПКМ кликните по "Generate Animator-Joins". Алгоритм найдет подходящий GameObject содержащий Animator и сделает его копию с привязками, а Animator перенесет на копию. 
